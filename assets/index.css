@@ -63,10 +63,10 @@ header div img.logo {
 
 .ProductCard {
   background-color: #fbf7e3;
-  border-radius: 25%;
+  border-radius: 17%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  width: 250px;
+  width: 295px;
   margin-block-end: 20px;
 }
 
@@ -101,7 +101,7 @@ header div img.logo {
   padding: 16px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 h1,
 h2,
