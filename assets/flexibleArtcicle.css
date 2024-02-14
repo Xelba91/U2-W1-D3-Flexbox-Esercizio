@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+h1,
+h2,
+h3 {
+  color: #742305;
+  margin-top: 0;
+}
+p {
+  color: #742305;
+}
+
+.flexibleArticle {
+  background-color: #fbf7e3;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 250px;
+  margin-block-end: 20px;
+  padding: 1rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section span > img {
+  max-width: 100%;
+  height: auto;
+}
